@@ -1,0 +1,452 @@
+@CHARSET "ISO-8859-1";
+
+.login-form {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.login-form div {
+	padding-bottom: 10px;
+}
+
+.login-form label {
+	min-width: 100px;
+	display: inline-block;
+}
+
+.dashboard {
+	padding-bottom: 20px;
+	margin-left: 20px;
+}
+
+.travelfund label {
+    font-size: 17px;
+}
+
+.travelfund {
+    font-size: 17px;
+}
+
+#travelfund label {
+    font-size: 17px;
+}
+
+#travelfund {
+    font-size: 17px;
+}
+#upload label {
+    font-size: 17px;
+}
+
+#upload {
+    font-size: 17px;
+}
+
+#header .logo img{
+	height: 120px;
+}
+
+#header .profile{
+	margin-top: 6em;
+}
+
+#header{
+	height: 155px;
+}
+
+h2, h3, h4{
+	font-family: “Trebuchet MS”, sans-serif”;	
+}
+
+.btn a {
+	padding-top: 200px;
+	padding-bottom: 20px;
+}
+
+.message-panel {
+	display: none;
+}
+
+td, tr, p, input, span{
+	font-family: "ariel", "sans-serif";
+	font-size: 14px;
+}
+
+.landing-btn, .inc-btn{
+
+	text-align: center;
+	text-decoration: none;
+
+	transition: background-color 0.15s, color 0.15s;
+	border: none;
+	display:block;
+	font-size: 17px;
+	line-height: 24px;
+	border-radius: 2px;
+	padding: 20px;
+	margin: 10px 10px;
+	width: 100%;
+	font-family: "ariel", "sans-serif";
+}
+
+.incomplete-btn{
+	text-align: center;
+	text-decoration: none;
+
+	background-color: #C2C2D6;
+	border: none;
+	display:block;
+	font-size: 20px;
+	line-height: 24px;
+	border-radius: 2px;
+	padding: 20px;
+	margin: 10px 10px;
+	width: 100%;
+	font-family: "ariel", "sans-serif";
+	font-size: 14px;
+}
+body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom {
+    padding-right: 0px !important;
+    overflow-y: auto;
+}
+
+/*The navigation */
+
+.navbar, .navbar ul, .navbar-collapse {
+    padding: 0px;
+    margin: 0px;
+    background-color: #002554;
+    border-radius: 0px;
+    font-size: 14px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+.navbar-header {
+    float: left;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display: none;
+}
+
+.navbar-header h2 {
+    color: #FFF;
+    margin: 0px;
+    padding: 0px 0px 0px 10px;
+    line-height: 50px;
+}
+
+.pull-left {
+    float: left !important;
+}
+.navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0px;
+    overflow: visible !important;
+    visibility: visible !important;
+}
+
+.navbar-collapse {
+    padding: 0px;
+    margin: 0px;
+    background-color: #002554;
+    border-radius: 0px;
+    font-size: 14px;
+    width: auto;
+    border-top: 0px none;
+    box-shadow: none;
+}
+
+.navbar-right {
+    float: right !important;
+    margin-right: -15px;
+}
+
+.navbar, .navbar ul, .navbar-collapse {
+    padding: 0px;
+    margin: 0px;
+    background-color: #002554;
+    border-radius: 0px;
+    font-size: 14px;
+}
+
+.navbar-nav > li {
+    float: left;
+}
+
+.nav > li {
+    position: relative;
+    display: block;
+}
+
+.nav {
+    list-style: outside none none;
+}
+
+.navbar ul li a {
+    display: inline-block;
+    color: #FFF;
+    line-height: 24px;
+    text-decoration: none;
+    padding: 10px;
+    outline: 0px none;
+    background-color: transparent;
+
+}
+
+.navbar ul li a:hover {
+    background-color: cornflowerblue;
+}
+
+/*add uer table */
+
+.table th {
+    background-color: #E5F3F7;
+}
+
+.table td {
+    background-color: #ffffff;
+}
+
+.full-fit {
+    display: block;
+    width: 100%;
+}
+table.tablesorter thead tr th.header.no-bg {
+    background-image: none;
+}
+
+.button-cell {
+    text-align: center;
+}
+
+/*
+Form setup
+*/
+
+
+.row-one-col {width: 49%;}
+
+.row-two-col {
+	 float:left;
+	 width: 49%;
+	 margin-right: 2%;		
+ }
+ 
+ .left {float:left;}
+
+.main-landing {
+	text-align: left;
+	margin-top:50px;
+	margin-bottom: 50px;
+}
+
+
+.submission-form {
+	border-style: solid;
+	border-width: 10px;
+	border-color: #808080;
+	padding: 10px;
+	background-color: #eaeaea;
+	margin: 50px 0px;
+	font-family: "ariel", "sans-serif";
+	font-size: 16px;
+}
+
+.submission-form input[type='text']{
+ 		font-size: 14px;
+ 		background: #fff;
+ 		width: 100%;
+ 		height: 28px;
+ 		margin-bottom: 20px;
+
+ 		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+
+		 -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+   		-webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+   		box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+
+   		border:none;
+ 	
+ }
+ 
+ hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+div.no-click{
+	margin-bottom: 20px;
+}
+
+.member-group {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.buttons{
+	text-align: right;
+}
+
+.table {
+	font-size: 12pt;
+}
+
+.link-btn {
+    background:none!important;
+     border:none; 
+     padding:0!important;
+    /*optional*/
+    font-family:arial,sans-serif; /*input has OS specific font-family*/
+     color:#069;
+     cursor:pointer;
+}
+.link-btn:hover{
+         text-decoration:underline;
+}
+
+/*
+Confirmation
+*/
+.correction-comment {
+	display: block;
+	width: 100%;
+	padding: 0;
+	margin: 10px 0 5px 0;
+}
+.active:hover{
+	cursor: pointer;
+}
+
+
+label { font-weight: normal; }
+
+.danger {
+	color: #a94442;
+}
+
+/*
+Attachments
+*/
+/*.btn-file {*/
+    /*position: relative;*/
+    /*overflow: hidden;*/
+/*}*/
+/*.btn-file input[type=file] {*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*right: 0;*/
+    /*min-width: 100%;*/
+    /*min-height: 100%;*/
+    /*font-size: 100px;*/
+    /*text-align: right;*/
+    /*filter: alpha(opacity=0);*/
+    /*opacity: 0;*/
+    /*outline: none;*/
+    /*background: white;*/
+    /*cursor: inherit;*/
+    /*display: block;*/
+/*}*/
+/*.btn-primary{*/
+    /*height:34px;*/
+/*}*/
+.upload-drop-zone {
+    height: 200px;
+    border-width: 2px;
+    margin-bottom: 20px;
+}
+
+/* skin.css Style*/
+.upload-drop-zone {
+    color: #ccc;
+    border-style: dashed;
+    border-color: #ccc;
+    line-height: 200px;
+    text-align: center
+}
+.upload-drop-zone.drop {
+    color: #222;
+    border-color: #222;
+}
+
+.toggle {
+    font-weight: bold;
+    font-size: 17px;
+    line-height:20px;
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #ffffff; /* Main background */
+    margin-bottom: 10px;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* Toggle Link text */
+.toggle a.toggle-trigger {
+    display:block;
+    padding: 10px 20px 15px 20px;
+    position:relative;
+    text-decoration: none;
+    color: #666;
+}
+
+/* Toggle Link hover state */
+.toggle a.toggle-trigger:hover {
+    opacity: .8;
+    text-decoration: none;
+}
+
+/* Toggle link when clicked */
+.toggle a.active {
+    text-decoration: none;
+    border-bottom: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 8px 6px -6px #ccc;
+    -moz-box-shadow: 0 8px 6px -6px #ccc;
+    box-shadow: 0 8px 6px -6px #ccc;
+    color: #000;
+}
+
+/* Lets add a "-" before the toggle link */
+.toggle a.toggle-trigger:before {
+    content: "-";	/* You can add any symbol, font icon, or graphic icon */
+    margin-right: 10px;
+    font-size: 1.3em;
+}
+
+/* When the toggle is active, change the "-" to a "+" */
+.toggle a.active.toggle-trigger:before {
+    content: "+";
+}
+
+/* The content of the toggle */
+.toggle .toggle-content {
+    padding: 10px 20px 15px 20px;
+    color:#666;
+}
+
